@@ -1,0 +1,5 @@
+for i in range(1,6): print(f'{i:04}',end=' \n')
+print('\n')
+for i in range(1,6): print(str(i).zfill(4),end=' \n')
+print('\n')
+for i in range(1,6): print('{:04}'.format(i),end=' \n')
